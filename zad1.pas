@@ -6,7 +6,7 @@ CONST
   n=100;
 VAR
   stala: array[1..100] of Integer;
-  i,j,zm,temp: Integer;
+  i,zm,temp: Integer; //zm - flag
 
 
 PROCEDURE sortuj;
@@ -14,13 +14,13 @@ PROCEDURE sortuj;
   zm:=0;
   While zm=0 Do
     Begin
-       zm:=1;
+       zm:=1; //no more swaps - end
        For i:=1 To n-1 Do
           Begin
               if stala[i] > stala[i+1] then
                   Begin
                      zm:=0;
-                     temp := stala[i];
+                     temp := stala[i]; //temporary variable to swap
                      stala[i] := stala[i+1];
                      stala[i+1] := temp;
 

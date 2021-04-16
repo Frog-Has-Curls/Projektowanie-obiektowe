@@ -1,2 +1,4 @@
 # Projektowanie-obiektowe
-Projekt związany z kursem projektowanie obiektowe
+Repozytorium związane z kursem Projektowanie Obiektowe
+
+
